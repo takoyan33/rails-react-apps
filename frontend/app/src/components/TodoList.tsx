@@ -12,7 +12,7 @@ export const TodoList: React.FC<TodoListProps> = ({ todos, setTodos }) => {
     <table>
       <thead>
         <tr>
-          <th>Todos</th>
+          <th className="text-3xl font-bold underline">Todos</th>
           <th></th>
         </tr>
       </thead>

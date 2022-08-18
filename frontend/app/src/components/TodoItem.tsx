@@ -8,6 +8,7 @@ interface TodoItemProps {
 }
 
 export const TodoItem: React.FC<TodoItemProps> = ({ todo, setTodos }) => {
+  /*todoを削除*/
   const handleDeleteTodo = async (id: number) => {
     try {
       const res = await deleteTodo(id);
