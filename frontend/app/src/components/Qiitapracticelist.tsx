@@ -27,7 +27,7 @@ export const Qiitapracticelist: React.VFC<Props> = (props) => {
       <p className="mb-2 p-8 bg-green-100 rounded-lg">
         検索ワード
         <span className="font-bold border-b-2 border-black"></span>
-        に該当なーーーし！！
+        に該当なし！！
       </p>
     );
   }
